@@ -65,6 +65,7 @@ header{
 	transition: opacity .15s ease-out;
 
 	/* prevent opening by hovering over items */
+	visibility: hidden;
 }
 
 .has-dropdown:focus-within .dropdown,
@@ -72,4 +73,5 @@ header{
 .dropdown:focus {
 	opacity: 1;
 	pointer-events: auto;
+	visibility: visible;
 }
